@@ -36,7 +36,15 @@ Password:
 Press RETURN/ENTER to continue or any other key to abort:
 ```
 5. `==> Installation successful!`とメッセージが出たら、インストールは完了。パスの設定と、実行できるか確認作業に移る
-6. インストール完了メッセージの後に`==> Next steps`があるので、これにしたがって、パス設定のためのコマンド2行を1行ずつコピーしてターミナルで実行する
-7. ターミナルで`brew help`と入力し、brewの使い方が表示されればインストール作業は完了となる
+6. インストール完了メッセージの後に`==> Next steps`があるので、これにしたがって、パス設定のためのコマンド2行を1行ずつコピーしてターミナルで実行する。下記にコマンド例を示すが、必ず自分のインストール作業をしたターミナルに表示されているコマンドをコピーして実行すること
+```
+例 1行目：(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/<<Macのユーザー名>>/.zprofile
+```
+```
+例 2行目：eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+8. ターミナルで`brew help`と入力し、brewの使い方が表示されればインストール作業は完了となる
 
+### Python(パイソン)のインストール
 
+### Visual Studio Code(ヴィジュアル スタジオ コード)のインストール
