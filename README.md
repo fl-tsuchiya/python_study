@@ -10,11 +10,11 @@ Python一年生第2版を進める。
    ※HomebrewはmacOSのパッケージ管理システム
 
 1. Homebrewを使って **Python(パイソン)** のインストール
-    1. **tcl-tk** のインストール  
-      ※tcl-tkはGUIアプリケーションを作成するためのツールキットもしくはAPI。pythonから使う場合はpythonインストール前にtcl-tkをインストールしておく必要がある
-
     1. **pyenv** のインストール  
       ※pyenvはpythonの仮想的な環境管理システム。pythonを複数バージョンインストールし、切り替えられるようにするツール
+
+    1. **tcl-tk** のインストール  
+      ※tcl-tkはGUIアプリケーションを作成するためのツールキットもしくはAPI。pythonから使う場合はpythonインストール前にtcl-tkをインストールしておく必要がある
 
     1. pyenv から **python** のインストール
 1. IDE(Integrated Development Environment: 統合開発環境)として **Visual Studio Code(ヴィジュアル スタジオ コード)** のインストール
@@ -46,5 +46,14 @@ Press RETURN/ENTER to continue or any other key to abort:
 8. ターミナルで`brew help`と入力し、brewの使い方が表示されればインストール作業は完了となる
 
 ### Python(パイソン)のインストール
+homebrewを使って
+1. **pyenv** のインストール
+1. **tcl-tk** のインストール
+
+の後に、pyenvを使って **python** のインストールを行う。
+
+https://zuttototto.net/macbook-tkinter/#toc2
+https://qiita.com/nokonoko_1203/items/a694be4e76da0872f51a
 
 ### Visual Studio Code(ヴィジュアル スタジオ コード)のインストール
+https://hoshi-it-o.com/python-build-environment/
